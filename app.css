@@ -598,6 +598,11 @@ hr {
     background-size: cover;
     background-position: center;
 }
+.editor{
+    background: url(images/screenshots/editor.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .nft{
     background: url(images/screenshots/nft.jpg) no-repeat;
     background-size: cover;
