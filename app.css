@@ -257,6 +257,7 @@ button {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
     /* border: 1px solid var(--yellow); */
     width: 400px;
@@ -266,6 +267,7 @@ button {
 .nav-exp{
     color: var(--text-color);
     font-size: 13px;
+    margin-left:40px;
 }
 .nav-skills:hover,
 .nav-resume:hover {
@@ -273,9 +275,10 @@ button {
 }
 /* all yellow buttons */
 .colored-btn {
-    padding: 15px 25px;
+    padding: 30px 5px;
     border: none;
     background-color: var(--yellow);
+    margin-left:10px;
     font-size: 12px;
     cursor: pointer;
 }
@@ -354,6 +357,14 @@ button {
     opacity: 0;
     animation-delay: 1.6s;
 }
+.cp{
+    margin-bottom: var(--lg-space);
+}
+.header {
+    color: var(--yellow);
+    font-size: 1.2rem;
+    margin-bottom: var(--sm-space);
+}
 
 /* ----------------- SKILLS -------------- */
 .skills {
@@ -408,6 +419,20 @@ hr {
     font-size: 0.8rem;
     line-height: 1.3;    
     word-break: break-word;
+}
+.codechef-logo {
+    /* background-color: #ff8528; */
+     size: 80px;;
+    background: url(images/cp/codechef.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.leetcode-logo {
+    /* background-color: #ff8528; */
+     size: 80px;;
+    background: url(images/cp/leetcode.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .html-logo {
     /* background-color: #ff8528; */
